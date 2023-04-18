@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid#efd108;
+    background-color: black;
+    
+}
+nav h1{
+    color: #efd108;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+    color: #fff;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+nav img{
+    margin-right: 20px;
+}
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url('Banner.png');
+        background-size: cover;
+        color: #ffffff;
+        padding: 50px;
+        height: 400px;
+        border-bottom: 5px solid #efd108;
+    }
+    header h1{
+        font-family: 'Playfair Display', sans-serif;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    header h4{
+        margin-top: -20px;
+        font-size: 20px;
+        text-align: center;
+        border-bottom: 1px solid #fff;
+    }
+    header button{
+        padding: 10px 20px;
+        background-color: #fff;
+        color: black;
+        border: none;
+        font-size: 20px;
+        font-family: 'Playfair Display', sans-serif;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .main{
+        margin-top: 40px;
+        margin: 20px;
+        display: flex;
+         flex-direction: column;
+         align-items: center;
+    }
+    .main .contents .card{
+        display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    }
+
+    .main .contents .card .left{
+        flex: 0 0 30%;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: black; color: #fff;
+    }
+    .main .contents .card.right{
+        flex: 0 0 70%;
+        
+    }
+    .main .contents .card .right img{
+        height: 800px;
+        width: 550px;
+        border-radius: 10px;
+    }
+    
+    .main .contents .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;    
+    
+    }
+    .main .contents .card .droite{
+        flex: 0 0 30%;
+        padding: 20px;
+        background-color: black ; color: #fff;
+    }
+    .main .contents .card .gauche{
+        flex: 0 0 25%;
+        padding: 20px;
+        background-color: black; color: #fff;
+    }
+    .main .contents .card .gauche img{
+        height: 350px;
+        width: 500px;
+        margin-top: 5px;
+    }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .campus{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .campus h1{
+        color: #fff;
+        font-size: 40px;
+    }
+    .campus p{
+        color: #fff;
+    }
+    .compus-col{
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 3px;
+        position: relative;
+        overflow: hidden;
+    }
+    .compus-col img{
+        width: 100%;
+    }
+
+    .row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .row a{
+        text-decoration: none;
+        border: 2px solid #ffffff;
+        padding: 5px;
+        margin-top: 5px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .layer{
+        background:transparent;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+    }
+    .layer:hover{
+        background:#efd108;
+    }
+    .layer h3{
+        width: 100%;
+        font-weight:500;
+        color: #fff;
+        font-size: 26px;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    .layer:hover h3{
+        bottom: 49%;
+        opacity: 1;
+    }
+    .footer{
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    footer{
+        margin-top: 40px;
+        border-top: 5px solid #efd108;
+        background-color: rgb(0, 0, 0);color: #fff;
+        padding: 30px 100px;
+
+    }
+    footer h1{
+        font-family: 'Playfair Display', sans-serif;
+        border-bottom: 2px solid #efd108;
+        width: 20%;
+        padding-bottom: 20px;
+    }
+    footer .services{
+        margin-top: -10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .services .service{
+        margin-right: 30px;
+        padding: 10px;
+
+
+    }
+    footer .services .service p{
+        max-width: 300px;
+    }
+    footer #contact{
+        color: rgb(181, 181, 181);
+    }
+
+
+
+    @media screen and (max-width:680px)  {
+        nav .onglets {
+            margin-left: 0px;
+            margin-bottom: 20px;
+        }
+    }
